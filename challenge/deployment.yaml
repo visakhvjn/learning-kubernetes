@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: container-1
-        image: ubuntu
-        command: ["sleep", "infinity"]
+        image: nginx:latest
         resources:
           requests:
             cpu: "250m"
